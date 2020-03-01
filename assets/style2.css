@@ -1,0 +1,184 @@
+@font-face {
+    font-family: SF Pro Display;
+    src: url(FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    background: #FFFFFF;
+}
+
+body {
+    position: absolute;
+    margin: 0 auto;
+    width: 1280px;
+    height: 720px;
+    left: 0px;
+    top: -10px;
+    right: 0px;
+    bottom: 0px;
+    background: url(/assets/bg2.png);
+}
+
+a {
+    position: absolute;
+    width: 24px;
+    height: 0px;
+    left: 80px;
+    top: 60px;
+}
+
+.tampil {
+    position: static;
+    width: 412px;
+    margin: 40px auto;
+
+}
+
+.tampil h1 {
+
+    color: #FCB371;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 84px;
+    text-align: center;
+    left: 518px;
+    right: 519px;
+    top: 58px;
+    bottom: 578px;
+
+}
+
+.tampil #name {
+
+    margin-top: 40px;
+    width: 382px;
+    height: 46px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    color: #A9A9A9;
+    padding: 10px;
+}
+
+.tampil #email {
+
+    margin-top: 10px;
+    width: 382px;
+    height: 46px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    color: #A9A9A9;
+    padding: 10px;
+
+}
+
+.tampil #number {
+
+    margin-top: 10px;
+    width: 177px;
+    height: 46px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    color: #A9A9A9;
+    padding: 10px;
+
+
+}
+
+.tampil #select {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 185px;
+    height: 69px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    color: #A9A9A9;
+    padding: 10px;
+
+}
+
+.tampil #teksarea {
+    margin-top: 10px;
+    width: 382px;
+    height: 116px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    align-items: center;
+    color: #A9A9A9;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.tampil button {
+    margin-top: 10px;
+    width: 405px;
+    height: 53px;
+    background-color: #FCB371;
+    color: #FFFFFF;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid #FCB371;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    background: rgba(42, 38, 61, 0.82);
+}
